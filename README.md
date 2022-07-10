@@ -2,12 +2,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First,install packages and run the development server:
 
 ```bash
+# packages for next app
+npm install --legacy-peer-deps
+
+#after client app installed, run
+cd ./sanity/backend
+npm install
+
+#then run the server
 npm run dev
-# or
-yarn dev
+
+#for the sanity server
+sanity start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
